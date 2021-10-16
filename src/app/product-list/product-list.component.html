@@ -1,0 +1,8 @@
+<h2>Produtos</h2>
+
+<div *ngFor="let product of products">
+    <h3>Produto: {{product.name }}</h3>
+    <p *ngIf="product.description">
+        Descrição: {{ product.description }}
+    </p>
+</div>
